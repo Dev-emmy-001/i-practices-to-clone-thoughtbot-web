@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    background-color: rgb(33, 20, 20);
+    color: rgb(234, 230, 228)
+}
+
+.ulhead {
+    color: white;
+    /* display:flex;
+    /* justify-content:space-between; */
+    /* text-align: center;
+    margin-left: 100px; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: -14%;
+    background-color:rgb(33, 20, 20);
+    justify-content: space-around;
+}
+
+.ulhead li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+.ulhead li:hover{
+    color: #FFC726;
+    text-decoration: underline;
+}
+.ulhead li a {
+    list-style: none;
+    margin-left: 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.topics li a:hover{
+    color: #FFC726;
+}
+
+.topics li a button:hover{
+    background-color: rgb(255, 231, 163);
+    color: black;
+}
+
+.ulhead li select {
+    background-color:rgb(33, 20, 20);
+    color: white;
+    font-size: 18px;
+    list-style: none;
+    /* border-style: solid; */
+    text-decoration: none;
+    border: none;
+}
+.ulhead li select:hover{
+    color: #FFC726;
+    text-decoration: underline;
+}
+.ulhead button{
+    background-color: rgb(224, 49, 49) ;
+}
+.navhead {
+    margin-top: -140px;
+    position: fixed;
+    /* background-color: black; */
+}
+.navheadimg{
+    margin-top: 150px;
+}
+
+
+.letstart {
+    color: white;
+    background-color: rgb(224, 49, 49);
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px;
+    position: relative;
+    top: -15px;
+    left:120px;
+}
+.letstart:hover{
+    border: 5px solid;
+    border-color: black;
+}
+
+.header{
+    position: static;
+    border: 3px solid;
+}
+.body{
+    color: white;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    padding: 10px 15px;
+}
+.body h1{
+    font-size: 49.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.body p{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+.body p a{
+    color: 
+#FFC726;
+
+}
+.hr1{
+    color: wheat;
+}
+.topics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topics li{
+    color: white;
+    list-style: none;
+}
+.topics li button{
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 100px;
+    background-color:transparent;
+    border-radius: 30px;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    color: white;
+    border: 0.5px solid; 
+    border-color: white;
+}
+.topics li a span{
+    background-color: #FFC726;
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+     font-family: monospace;
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 8px;
+    border-radius: 30px;
+}
+.topics li a span:hover{
+    color: black;
+}
+.topics a{
+    font-size: 25px;
+    color: white;
+    text-decoration: dotted;
+}
+.job{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.job:hover{
+    color: #FFC726;
+    cursor: pointer;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2:hover{
+    color: #FFC726;
+    cursor: pointer;
+}
+.h2p p{
+    font-size: 20.25px;
+    font-weight: 400;
+}
+.h2p p span{
+    color: #FFC726;
+}
+.box{
+    box-sizing: content-box;
+    background-color: #2F1C1C;
+    text-box:inherit;
+    padding: 20px;
+}
+.box p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.box input{
+    min-width: 200px;
+    border: none;
+    border-bottom: 2px solid #999;
+    background-color: transparent;
+    color: white;
+    width: 600px;
+    height: 30px;
+    font-size: 20px;
+}
+/* .box input:hover{
+    border: none;
+} */
+.box button{
+    font-size: 25px;
+    background-color:red;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+.box button:hover{
+     border: 5px solid;
+    border-color: black;
+}
+
+.connected p{
+    font-size: 18px;
+}
+.connected img{
+    width: 300px;
+    position: absolute;
+    bottom: -70%;
+    left: 55%;
+}
+.connected img:hover{
+    color: blue;
+}
+.the h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.the p{
+    font-size: 20px;
+}
+.the p span{
+    color: #FFC726;
+}
+.how h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.how p span{
+    color: #FFC726;
+}
+.how p{
+    font-size: 20px;
+}
+.giant h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.giant p{
+    font-size: 20px;
+}
+.giant p span{
+    color: #FFC726;
+}
+.meet h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.meet p{
+    font-size: 20px;
+}
+.meet p span{
+    color: #FFC726;
+}
+.copied h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copied p{
+    font-size: 20px;
+}
+.copied p span{
+    color: #FFC726;
+}
+.observa h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.observa p{
+    font-size: 20px;
+}
+.observa p span{
+    color: #FFC726;
+}
+.bike h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bike p{
+    font-size: 20px;
+}
+.bike p span{
+    color: #FFC726;
+}
+.intro h2{
+     font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro p{
+    font-size: 20px;
+}
+.intro p span{
+    color: #FFC726;
+}
+.launch h2{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.launch p{
+    font-size: 20px;
+}
+.launch p span{
+    color: #FFC726;
+}
