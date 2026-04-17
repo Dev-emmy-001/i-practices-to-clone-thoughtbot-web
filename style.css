@@ -6,7 +6,7 @@
 
 
 body {
-    
+    /* width: 100%; */
     background-color: rgb(33, 20, 20);
     color: rgb(234, 230, 228)
 }
@@ -93,7 +93,7 @@ body {
     border: 2px;
     position: relative;
     top: -15px;
-    left:120px;
+    left:50px;
 }
 .letstart:hover{
     border: 5px solid;
@@ -216,7 +216,7 @@ h2:hover{
     border-bottom: 2px solid #999;
     background-color: transparent;
     color: white;
-    width: 600px;
+    width: 500px;
     height: 30px;
     font-size: 20px;
 }
@@ -241,7 +241,7 @@ h2:hover{
 .connected img{
     width: 300px;
     position: absolute;
-    bottom: -70%;
+    bottom: -100%;
     left: 55%;
 }
 .connected img:hover{

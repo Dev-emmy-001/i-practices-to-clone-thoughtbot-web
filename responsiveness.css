@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 100%;
+    }
+
+    .navheadimg img {
+        width: 120px;
+        /* height: 30px; */
+    }
+
+    .navhead {
+        width: 1px;
+    }
+
+    .ulhead li {
+        display: none;
+    }
+
+    .letstart {
+        font-size: 7px;
+        width: 70px;
+        margin-top: -150px;
+        margin-left: 150px;
+    }
+
+    .ulhead button {
+        padding: 2px;
+        border-radius: 50px;
+    }
+
+    .body h1 {
+        width: 250px;
+        font-size: 25px;
+        margin-left: -100px;
+    }
+
+    .body p {
+        width: 250px;
+        font-size: 15px;
+        margin-left: -100px;
+    }
+
+    .body hr {
+        margin-left: -100px;
+        width: 250px;
+    }
+
+    .topics{
+        /* width: 5px; */
+        width: 250px;
+        flex-wrap: wrap;
+        margin-left: -100px;
+    }
+    .topics li a {
+        font-size: 25px;
+        width: 5px;
+        margin-left:px;
+    }
+    .topics li a button{
+        font-size: 10px;
+        width: 70px;
+        border-radius: px;
+        margin-bottom: 20px;
+        /* padding: 100px; */
+    }
+    .topics li a span{
+        font-size: 10px;
+        /* margin-top: 10px; */
+    }
+    .more {
+        font-size: 15px !important;
+        margin-left: -250px !important;
+        /* margin-bottom: -5000px !important; */
+    }
+    .job{
+        margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .box{
+        width: 230px;
+        margin-left: -100px;
+    }
+    .box h2{
+        font-size: 16px;
+    }
+    .box p{
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .box input{
+        margin-bottom: 5px;
+        width: 250px;
+    }
+    .box button{
+        width: 200px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .the h2{
+        margin-left: -100px;
+        font-size: 25px;
+        width: 250px;
+    }
+    .connected img{
+        display: none;
+    }
+    .how h2{
+        margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .giant h2{
+         margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .meet h2{
+         margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .copied h2{
+         margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .observa h2{
+         margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .bike h2{
+         margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .intro h2{
+         margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+    .launch h2{
+        margin-left: -100px;
+        width: 250px;
+        font-size: 25px;
+    }
+
+}
